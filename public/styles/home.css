@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container{
+    width: min(36.3rem, 100%);
+}
+
+main h2{
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    font-size: clamp(20px, 5vw, 2.8rem); /*Configuração da fonte minima/ideal/maximo*/
+    margin-bottom: 2.4rem;
+}
+
+input{
+    border: .2rem solid var(--grey-blue);
+    padding: 0 1.6rem;
+}
+
+input, button, .button{
+    width: 100%;
+    margin-bottom: 1.8rem;
+}
+
+

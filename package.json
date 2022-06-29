@@ -1,0 +1,21 @@
+{
+  "name": "api-soucer",
+  "version": "1.0.0",
+  "description": "api-data-base",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Samuelikz",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.18.1",
+    "sequelize": "^6.21.1",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18",
+    "sequelize-cli": "^6.4.1"
+  }
+}
