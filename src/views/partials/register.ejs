@@ -1,0 +1,20 @@
+<section>
+    <img src="images/home-bg-img-2.svg" alt="Entrar na sala">
+    <form action="/auth/register" method="POST">
+        <input name="username" type="text" id="room-id" placeholder="Usúario" required="required">
+        <input name="password" type="password" id="room-id" placeholder="Senha" required="required">
+        <input name="confirmpassword" type="password" id="room-id" placeholder="Confirmar Senha" required="required">
+        
+        <section>
+            <select class="select" name="select">
+                <option value="true">Admin User</option>
+                <option value="false" selected>User Guest</option>
+            </select>
+        </section>
+
+        <button type="submit">
+            <img src="images/enter-room.svg" alt="Entrar na sala">
+            Registrar
+        </button>
+    </form>
+</section>
